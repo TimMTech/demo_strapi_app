@@ -14,15 +14,23 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "author": {
       "type": "string",
       "required": true
     },
     "description": {
-      "type": "text",
+      "type": "string",
       "required": true
+    },
+    "editor_content": {
+      "type": "richtext",
+      "required": true
+    },
+    "translated_content": {
+      "type": "richtext"
     }
   }
 }

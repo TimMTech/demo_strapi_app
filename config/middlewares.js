@@ -12,6 +12,7 @@ module.exports = [
             'data:',
             'blob:',
             'cdn.tiny.cloud',
+            'ik.imagekit.io'
           ],
           "script-src": [
             "cdn.tiny.cloud",

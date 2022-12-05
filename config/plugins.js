@@ -4,3 +4,4 @@ module.exports = {
     resolve: "./src/plugins/wysiwyg", // path to plugin folder
   },
 };
+
