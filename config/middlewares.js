@@ -16,6 +16,7 @@ module.exports = [
           ],
           "script-src": [
             "cdn.tiny.cloud",
+            "ik.imagekit.io",
             "self",
             "'self'",
             "data:",
@@ -26,6 +27,14 @@ module.exports = [
             'data:',
             'blob:',
             'cdn.tiny.cloud',
+            'ik.imagekit.io'
+          ],
+          'frame-src': [
+            "'self'",
+            'data:',
+            'blob:',
+            'youtube.com',
+            'www.youtube.com'
           ],
           upgradeInsecureRequests: null,
         },
